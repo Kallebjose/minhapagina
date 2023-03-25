@@ -1,0 +1,95 @@
+body {
+  background-color: lightcoral;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: lightblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header nav {
+    display: inline-block;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header nav li:last-child {
+    margin-right: 0;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+  }
+  
+  .contato h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contato form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contato label {
+    margin-bottom: 10px;
+  }
+  
+  .contato input[type="text"],
+  .contato input[type="email"],
+  .contato textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contato input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+  }
+  
+  .contato input[type="submit"]:hover {
+    background-color: #666;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
